@@ -1,0 +1,42 @@
+.slider-container{
+    margin: 50px 50px;
+    background-color: #E5E4E2;
+    max-height: 700px;
+    display: flex;
+}
+
+.slider-image img{
+    width: 1000px;
+    height: 700px;
+}
+
+.slider-text{
+    margin-top: 150px;
+}
+.slider-text span{
+    font-size: 26px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    
+}
+
+
+.slider-text h2{
+    margin: 20px 0 50px 0;
+    font-size: 70px;
+    letter-spacing: 2px;
+}
+
+.slider-btn span{
+    border: 1px solid #333;
+    padding: 10px 30px;
+    border-radius: 10px;
+   
+    cursor: pointer;
+}
+
+.slider-btn span:hover{
+    background-color: #0000FF;
+    transition: all 0.3s;
+    color: #fff;
+}

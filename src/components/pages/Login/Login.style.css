@@ -1,0 +1,56 @@
+.login-area{
+    background: gray;
+    height: 500px;
+    width: 500px;
+    margin-top: 200px;
+    margin-left: 395px;
+    text-align: center;
+    padding: 30px;
+}
+
+.login-area h3{
+    margin-bottom: 50px;
+    color: azure;
+    font-size: 40px;
+}
+
+.username input{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.password input{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.login-btn button{
+    padding: 15px 30px;
+    font-size: 20px;
+    width: 100%;
+    border-radius: 10px;
+    background: #60C7C1;
+}
+
+.login-btn button:hover{
+    background: #24ADF3;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+.forgot-pass{
+    background: #ECF0F1;
+    margin-top: 50px;
+    padding: 15px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.forgot-pass a{
+    color: black;
+    text-decoration: none;
+}

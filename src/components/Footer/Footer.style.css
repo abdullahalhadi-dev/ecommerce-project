@@ -1,0 +1,40 @@
+.footer-area{
+    background: #F6F6F8;
+    padding: 70px 0 70px 0;
+}
+.footer-area .container{
+    display: flex;
+}
+
+.footer-about ul li{
+    list-style: none;
+    margin-bottom: 5px;
+}
+.footer-about ul, li{
+    padding-left: 0;
+}
+
+.footer-follow ul li{
+    list-style: none;
+    margin-bottom: 5px;
+}
+.footer-follow ul, li{
+    padding-left: 0;
+}
+
+.footer-subscribe input{
+    border: none;
+    width: 100%;
+    background: #F6F6F8;
+    border-bottom: 1px solid #EBEBEB;
+    margin-bottom: 10px;
+}
+
+.footer-subscribe a{
+    margin: 10px 0 0 0;
+    text-transform: uppercase;
+    color: gray;
+}
+.footer-subscribe a:hover{
+    color: blue;
+}

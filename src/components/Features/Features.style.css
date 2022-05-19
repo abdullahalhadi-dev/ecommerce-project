@@ -1,0 +1,27 @@
+.features{
+    margin-bottom: 50px;
+    display: flex;
+    
+}
+
+.feature-01{
+    background-color: #E5E4E2;
+    margin: 0 5px 0 5px;
+    display: flex;
+    padding: 30px 20px;
+}
+
+.feature-01-image img{
+    background-color: #E5E4E2;
+    height: 200px;
+    width: 250px;
+}
+
+.feature-01-text{
+    padding: 20px 0 0 20px;
+}
+
+.feature-01-text h4{
+    font-size: 30px;
+    color: #975342;
+}

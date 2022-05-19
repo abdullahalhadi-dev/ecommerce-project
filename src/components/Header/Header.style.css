@@ -1,0 +1,25 @@
+.header ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 25px 0 0px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.header ul li:hover{
+    color: #0000FF;
+}
+.header ul{
+    margin-left: -30px;
+}
+
+.header{
+    display: flex;
+}
+
+.header-container{
+    margin: 50px 50px;
+}
+
+.header h3{
+    font-size: 40px;
+}

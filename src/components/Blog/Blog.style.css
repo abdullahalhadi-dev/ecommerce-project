@@ -1,0 +1,37 @@
+.blog{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.blog-header{
+    text-align: center;
+    margin: 80px 0 50px 0;
+}
+.blog-header h2{
+    letter-spacing: 2px;
+}
+
+.blog-image img{
+    height: 300px;
+    width: 425px;
+    position: relative;
+}
+
+.blog-text{
+    background-color: #fff;
+    height: 200px;
+    width: 380px;
+    margin-left: 25px;
+    margin-top: -100px;
+    position: relative;
+    z-index: 99;
+}
+
+.blog-text h3{
+    padding: 30px 50px 0px 50px;
+    text-align: center;
+}
+.blog-text span{
+    margin-left: 150px;
+    margin-top: 20px;
+}

@@ -1,0 +1,46 @@
+ .products-heading{
+     text-align: center;
+     margin: 70px 0 50px 0;
+ }
+ 
+ 
+ .product-listing{
+    display: flex;
+    
+} 
+.product-listing-2{
+    display: flex;
+    margin-top: 50px;
+} 
+
+.product-1{
+    display: inline-block;
+}
+
+.product-image img{
+    height: 400px;
+    width: 315px;
+}
+
+
+.product-1, .product-5{
+    margin: 0 7px 0 0;
+}
+
+.product-2, .product-6{
+    margin: 0 7px 0 0;
+}
+
+.product-3, .product-7{
+    margin: 0 7px 0 0;
+}
+
+.product-4, .product-8{
+    margin: 0 0 0 5px;
+}
+
+.product-text h4{
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: 400;
+}
