@@ -5,6 +5,10 @@ import image4 from "../../../src/images/4.jpg";
 import image5 from "../../../src/images/5.jpg";
 import image7 from "../../../src/images/7.jpg";
 
+import { Button } from 'react-bootstrap';
+import SingleProduct from "./SingleProduct";
+import { NavLink } from 'react-router-dom';
+
 const Products = () => {
   return (
     <div className="product-area">
@@ -19,7 +23,11 @@ const Products = () => {
               <img src={image1} />
             </div>
             <div className="product-text">
-              <h4>Lorem ipsum accessories one</h4>
+
+              <div className='single-product'>
+                    <NavLink to="/singleProduct"><Button><h4>Lorem ipsum accessories one</h4></Button></NavLink>
+                </div>
+              
               <span>€2.79</span>
             </div>
           </div>

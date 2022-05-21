@@ -1,6 +1,6 @@
 import React from 'react';
 import './Slider.style.css';
-import image01 from '../../../src/images/slider-image01.png'
+import image01 from '../../../src/images/slider-image01.png';
 
 const Slider = () => {
     return (
